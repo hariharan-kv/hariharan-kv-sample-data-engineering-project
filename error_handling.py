@@ -15,5 +15,5 @@ data_processing_task = PythonOperator(
     dag=dag
 )
 
-data_processing_task
+data_processing_task()
 
